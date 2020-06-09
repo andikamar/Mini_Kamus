@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamus Inggris Indonesia Jerman" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inggris : " />
+
+    <EditText
+        android:id="@+id/txtInggris"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="">
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_terjemah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTerjemahan"
+        android:text="Terjemahkan" />
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indonesia : " />
+    <EditText
+        android:id="@+id/txtIndonesia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="" />
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jerman" />
+    <EditText
+        android:id="@+id/txtJerman"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
